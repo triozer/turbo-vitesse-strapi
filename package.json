@@ -1,0 +1,19 @@
+{
+  "name": "feedback",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "turbo": "^1.6.1",
+    "@myturborepo/eslint-config-custom": "workspace:*"
+  }
+}
