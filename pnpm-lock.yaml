@@ -4,10 +4,10 @@ importers:
 
   .:
     specifiers:
-      '@feedback/eslint-config-custom': workspace:*
+      '@myturborepo/eslint-config-custom': workspace:*
       turbo: ^1.6.1
     devDependencies:
-      '@feedback/eslint-config-custom': link:packages/eslint-config-custom
+      '@myturborepo/eslint-config-custom': link:packages/eslint-config-custom
       turbo: 1.6.1
 
   apps/api:
